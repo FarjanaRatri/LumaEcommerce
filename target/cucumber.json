@@ -1,0 +1,164 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-12-21T23:53:33.287Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2082483500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "luma.us.hooks.Hooks.getSetUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "User can login the application with valid credentials and purchase the specific men\u0027s jacket.",
+        "description": "",
+        "id": "valid-user-can-purchase-the-men-jacket.;user-can-login-the-application-with-valid-credentials-and-purchase-the-specific-men-s-jacket.;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "luma.us.hooks.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3495407400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User already logged in the application and verify the user information on the landing page",
+            "match": {
+              "location": "luma.us.stepdefinition.Men_Functional_Stepdef.user_already_logged_in_the_application_and_verify_the_user_information_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 993241800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Users should be able to select Jupiter All-Weather Trainer jacket from men module",
+            "match": {
+              "location": "luma.us.stepdefinition.Men_Functional_Stepdef.users_should_be_able_to_select_jupiter_all_weather_trainer_jacket_from_men_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 603644300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify the jacket name Jupiter All-Weather Trainer on the list",
+            "match": {
+              "location": "luma.us.stepdefinition.Men_Functional_Stepdef.verify_the_jacket_name_jupiter_all_weather_trainer_on_the_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 303386600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should be able to select the S and Blue and 1 then click on the add to cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 49
+                }
+              ],
+              "location": "luma.us.stepdefinition.Men_Functional_Stepdef.user_should_be_able_to_select_the_s_and_blue_and_then_click_on_the_add_to_cart(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3086771400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be able to Click on the cart",
+            "match": {
+              "location": "luma.us.stepdefinition.Men_Functional_Stepdef.user_should_be_able_to_click_on_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1239171200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should be able to click on the checkout",
+            "match": {
+              "location": "luma.us.stepdefinition.Men_Functional_Stepdef.user_should_be_able_to_click_on_the_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 526814900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should be able to enter the shipping details and click on the Next",
+            "match": {
+              "location": "luma.us.stepdefinition.Men_Functional_Stepdef.user_should_be_able_to_enter_the_shipping_details_and_click_on_the_next()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4118336300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should be able to verify the shipping address and place the order",
+            "match": {
+              "location": "luma.us.stepdefinition.Men_Functional_Stepdef.user_should_be_able_to_verify_the_shipping_address_and_place_the_order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3013722900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User should be able to verify the order number and get text on the screen “Thank you for your purchase!”",
+            "match": {
+              "location": "luma.us.stepdefinition.Men_Functional_Stepdef.user_should_be_able_to_verify_the_order_number_and_get_text_on_the_screen_thank_you_for_your_purchase()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "valid user can purchase the men jacket.",
+    "description": "Description: Online user can register luma ecommerce website to purchase, return, deliver, exchange, clearance, sale, etc.",
+    "id": "valid-user-can-purchase-the-men-jacket.",
+    "keyword": "Feature",
+    "uri": "file:Features/luma.login.feature",
+    "tags": []
+  }
+]
